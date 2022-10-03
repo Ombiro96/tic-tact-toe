@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
+h1{
+    color: turquoise;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cells{
+    height: 20vh;
+    width: 20vw;
+    background-color: blue;
+    border: 5px solid turquoise;
+    padding: 5px;
+}
+.cells:hover{
+    background-color: turquoise;
+}
