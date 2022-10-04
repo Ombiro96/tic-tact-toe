@@ -4,6 +4,7 @@
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
+    box-sizing: border-box;
 }
 h1{
     color: turquoise;
@@ -22,4 +23,16 @@ h1{
 }
 .cells:hover{
     background-color: turquoise;
+}
+button{
+    margin: 50px;
+    background-color: blue;
+    color: turquoise;
+    padding: 10px;
+    height: 5rem;
+    width: 10em;
+}
+button:hover{
+    transition: 5ms;
+    background-color: greenyellow;
 }
